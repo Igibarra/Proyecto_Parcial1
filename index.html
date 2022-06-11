@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">Servicio</a>
+                <a href="#galeria">Portafolio</a>
+                <a href="#expertos">Especializados</a>
+                <a href="#footer">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Belleza, salud, serenidad…</h1>
+            <p class="copy">Eso y más en nuestro spa lo hallarás. Permítete experimentar el máximo bienestar.</p>
+        </div>
+        
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="img/servicio1.svg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>TRATAMIENTOS CORPORALES</h3>
+                        <p> Tenemos una variedad de tratamientos en los cuales podemos obtener excelentes resultados en tratamientos reductores como el Masaje de Reducción, Drenaje Linfático y Masaje Anti-Celulítico.<br>
+                            Utilizamos productos de la linea Repechage 100% Naturales
+en Exfoliación de Cranberry o Miel. Y productos a base de algas marinas en 'European Seaweed y Sea Spa Glow'.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>CURACIÓN NATURAL CON MEDICINA HOLÍSTICA</h3>
+                        <p>La Medicina Holística, es una terapia alternativa o complementaria que se basa en los poderes de sanación naturales del organismo, devolviendole el equilibrio energético.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>TRATAMIENTOS FACIALES</h3>
+                        <p> Los faciales ayudan a mantener la piel limpia y saludable. Durante los tratamientos faciales estamos limpiando, exfoliando y activando la circulación nutriendo la piel, devolviendo el brillo, elasticidad y tonalidad al rostro.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/1.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/2.jpg" class="img-galeria" alt="">
+                    <img src="img/3.jpg" class="img-galeria" alt="">
+                    <img src="img/4.jpg" class="img-galeria" alt="">
+                    <img src="img/5.jpg" class="img-galeria" alt="">
+                    <img src="img/6.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/spa-y-relax.png" alt="">
+                    <h3 class="n-expert">Productos Naturales</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/spa.png" alt="">
+                    <h3 class="n-expert">Masajes</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/primavera.png" alt="">
+                    <h3 class="n-expert">Reservaciones</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">GENESIS SPA</h2>
+                    <p>No tienes que buscar el máximo bienestar, lo tenemos a disposición para tí. Ven a nuestro spa y descubrirás de qué se trata aquí.</p>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
